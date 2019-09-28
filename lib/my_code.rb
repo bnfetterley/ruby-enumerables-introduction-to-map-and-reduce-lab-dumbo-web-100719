@@ -61,7 +61,7 @@ end
 def reduce_to_any_true(source_array)
   i = 0
   while i < source_array.size do 
-    source_array.any? |[i]|
+    source_array.any? {|[i]|}
   i += 1 
    end
 end
