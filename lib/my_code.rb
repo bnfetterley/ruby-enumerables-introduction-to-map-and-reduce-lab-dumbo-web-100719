@@ -64,5 +64,4 @@ def reduce_to_any_true(source_array)
     source_array.any? |[i]|
   i += 1 
    end
-   return false
 end
