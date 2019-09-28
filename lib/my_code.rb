@@ -64,9 +64,7 @@ def reduce_to_any_true(source_array)
     if source_array[i] == [i]
       return true
    else
-     return false if source_array[i] == ![i]
-     i += 1 
+     return false 
    end
-   return true
 end
 
